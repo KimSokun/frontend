@@ -1,0 +1,18 @@
+# AllTools Googlebot & Search Engine Crawler Instructions
+User-agent: *
+Allow: /
+Disallow: /kadmin
+Disallow: /admin
+Disallow: /admin-api/
+
+User-agent: Googlebot
+Allow: /
+Allow: /favicon.ico
+Allow: /favicon.png
+Allow: /favicon-48x48.png
+Allow: /apple-touch-icon.png
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://www.passwordgeneratorwil.xyz/sitemap.xml
